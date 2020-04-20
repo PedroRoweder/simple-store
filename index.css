@@ -1,0 +1,105 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#gitMessage {
+  margin: 0;
+  width: 100%;
+  background-color: #8b2635;
+  font-family: "Quicksand", monospace, sans-serif;
+  font-weight: 500;
+}
+
+#gitMessage p {
+  margin: 0px;
+  padding: 5px 0px;
+  text-align: center;
+  color: #d2d4c8;
+}
+
+#gitMessage p a {
+  color: #d2d4c8;
+  font-weight: 600;
+}
+
+nav {
+  background-color: #1f2422 !important;
+}
+
+main {
+  background-color: #2e3532;
+  height: 100%;
+  margin: 0 auto !important;
+}
+
+.btn {
+  background-color: #8b2635;
+  color: #e0e2db;
+  font-style: "Quicksand", monospace;
+}
+
+.btn:hover {
+  color: #d2d4c8;
+}
+
+.vertical {
+  height: 40px !important;
+  line-height: 42px !important;
+  text-align: center !important;
+  font-weight: 700;
+  color: #3fa674;
+}
+
+.card {
+  margin: 0 auto !important;
+}
+
+#cardColumn {
+  margin: 10px 0px 5px 0px;
+}
+
+footer {
+  background-color: #2e3532;
+  color: #e0e2db;
+  font-weight: 700;
+}
+
+#shopping-cart {
+  position: relative;
+}
+
+#cart-item-count {
+  background-color: #8b2635;
+  width: 50%;
+  height: auto;
+  font-size: 0.7em;
+  border-radius: 10px;
+  text-align: center;
+  color: #e0e2db;
+  margin-top: -12px;
+  margin-left: 14px;
+  position: absolute;
+  display: none;
+}
+
+.fa-shopping-cart {
+  color: white;
+}
+
+#dropdown-cart {
+  padding: 10px;
+  margin: 0;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 2px;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  white-space: nowrap;
+}
